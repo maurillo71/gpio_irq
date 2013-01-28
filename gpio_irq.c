@@ -256,7 +256,7 @@ static void __exit gpio_irq_exit(void)
 module_exit(gpio_irq_exit);
 
 
-MODULE_AUTHOR("Scott Ellis");
-MODULE_DESCRIPTION("A module for testing irq latency");
+MODULE_AUTHOR("Mauro Gamba");
+MODULE_DESCRIPTION("A module for testing gpio irq on Beaglebone");
 MODULE_LICENSE("Dual BSD/GPL");
-MODULE_VERSION("0.3");
+MODULE_VERSION("0.1");
